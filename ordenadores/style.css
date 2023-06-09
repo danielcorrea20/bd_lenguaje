@@ -1,0 +1,13 @@
+table{
+    border: 2px solid rgb(14, 13, 14);
+}
+tr{
+    border: 2px solid rgb(14, 13, 14);
+}
+th{
+    border: 2px solid rgb(234, 1, 20);
+    background: rgb(168, 161, 161);
+}
+td{
+    border: 2px solid rgb(14, 13, 14);
+}
