@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    background-image: url(fondo3.webp);
+}
+
+
+.fila {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-bottom: 5px;
+  
+}
+
+.casilla {
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(5, 88, 61);
+    font-size: 100px;
+    background-color: aquamarine;
+}
+.marcador {
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(5, 88, 61);
+    font-size: 50px;
+    background-color: rgb(97, 104, 102);
+}
+.hoverred1{
+    background: gray;
+    
+    text-align: center;
+}
+.hoverred2{
+    background: gray;
+    text-align: center;
+}
+.container{
+    margin-left: 50vh;
+}
+button{
+    color: rgb(93, 93, 95);
+    background: rgb(194, 184, 184);
+}
+.hoverred1:hover {
+    background: rgb(252, 81, 1);
+}
+.hoverred2:hover {
+    background: rgb(235, 77, 4);
+}
